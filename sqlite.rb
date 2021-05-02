@@ -3,6 +3,7 @@ require 'fileutils'
 require 'yaml'
 require 'logger'
 
+
 module SqliteActiveRecord 
     class Base
         attr_accessor :tables, :db, :connected :create_tables
